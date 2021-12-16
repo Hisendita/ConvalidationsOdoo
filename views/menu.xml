@@ -1,0 +1,32 @@
+<odoo>
+  <data>
+    <!-- Top menu item -->
+
+    <menuitem name="Validations" id="validations.menu_root"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Students" id="validations.students" parent="validations.menu_root" 
+    action = "validations.action_window_student"/>
+
+    <menuitem name="Modules" id="validations.module" parent="validations.menu_root" 
+    action = "validations.action_window_module"/>
+    
+    <menuitem name="Vocational Training" id="validations.vocationaltraining" parent="validations.menu_root" 
+    action = "validations.action_window_vt"/>
+
+    <menuitem name="Convalidations" id="validations.convalidation" parent="validations.menu_root" 
+    action = "validations.action_window_convalidation"/>
+
+    <!--
+    <menuitem name="Menu 2" id="validations.menu_2" parent="validations.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="validations.menu_1_list" parent="validations.menu_1"
+              action="validations.action_window"/>
+    <menuitem name="Server to list" id="validations" parent="validations.menu_2"
+              action="validations.action_server"/>
+-->
+  </data>
+</odoo>
